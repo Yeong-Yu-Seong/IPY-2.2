@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8092413459209383179}
   - component: {fileID: 2937795270257204715}
   - component: {fileID: 3211671076953672937}
+  - component: {fileID: 6992705010492885599}
   m_Layer: 0
   m_Name: fan_blades
   m_TagString: Untagged
@@ -112,6 +113,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 7697905969513508140, guid: 2d214ca70e27ab84cb6879ef6489fca2, type: 3}
+--- !u!114 &6992705010492885599
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4116854833095422666}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9ad38082ce12deb4cb2ee3994864d14a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Spin
 --- !u!1 &8893862195925518868
 GameObject:
   m_ObjectHideFlags: 0
